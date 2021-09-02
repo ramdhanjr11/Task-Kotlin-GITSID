@@ -1,7 +1,9 @@
 fun main() {
 
+    // deklarasi variable input
     var input: String? //Mutable variable yang artinya bisa diubah valuenya
 
+    // melakukan perulangan apabila kondisi input terpenuhi dan do akan memulai terlebih dahulu sebelum masuk kedalam kondisi
     do {
         print("""
         Tugas 2 mengenai Operator, variable, dan kondisi
@@ -13,13 +15,13 @@ fun main() {
         4. Perkalian
         5. Modulus
         Pilih : 
-    """.trimIndent())
+    """.trimIndent())  // Raw String membuat beberapa string tanpa penggabungan
 
-        input = readLine()
+        input = readLine() // inisialisasi variable input
 
         if (input == "1") {
 
-            println("Masukan inputan yang ingin ditambahkan...")
+            println("Masukan inputan yang ingin ditambahkan...") // println akan membuat baris sedangkan print tidak
 
             print("a : ")
             val a = readLine()!!.toInt() //not-null assertion operator
@@ -93,8 +95,8 @@ fun main() {
             input = readLine()
 
         } else {
-            println("Maaf inputan yang anda masukan tidak ada, silahkan coba lagi..")
+            println("Maaf inputan yang anda masukan tidak ada, silahkan coba lagi..") // else akan berjalan apabila semua kondisi tidak terpenuhi
         }
 
-    } while (input == "y" || input == "Y")
+    } while (input == "y" || input == "Y") // memeriksa kondisi apakah terpenuhi
 }
