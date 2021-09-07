@@ -1,3 +1,10 @@
+/**
+* Tugas 4 M Ramdhan Syahputra
+* Membuat Perulangan dengan data implementasi ArrayListOf bebas
+* memuat data apa saja melalui Intellij Idea, serta menerapkan lambda pada kotlin
+*/
+
+
 // Pembuatan Object Computer
 class Computer(val name: String, val spec: List<Spec>)
 
