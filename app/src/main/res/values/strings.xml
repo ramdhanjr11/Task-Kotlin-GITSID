@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tugas-10</string>
+    <string name="title_halo">Halo,</string>
+    <string name="title_selamat_datang">Selamat datang di tugas 10</string>
+    <string name="title_nama">Nama</string>
+    <string name="title_ramdhan">M Ramdhan Syahputra</string>
+    <string name="title_kelas">Kelas</string>
+    <string name="title_kelas_kotlin">Studi Independen Kotlin GITS</string>
+    <string name="title_asal_kampus">Asal Kampus</string>
+    <string name="title_universitas_muhammadiyah_sukabumi">Universitas Muhammadiyah Sukabumi</string>
+</resources>
