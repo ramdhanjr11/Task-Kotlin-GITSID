@@ -10,6 +10,8 @@ import com.muramsyah.gits.tugas12.databinding.ItemUniversityBinding
 
 class HomeAdapter(private val universities: List<University>) : RecyclerView.Adapter<HomeAdapter.ViewHolder>() {
 
+    var onItemClicked: ((University) -> Unit?)? = null
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = ItemUniversityBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(view)
@@ -32,6 +34,10 @@ class HomeAdapter(private val universities: List<University>) : RecyclerView.Ada
 
                 tvUnivName.text = university.name
                 tvAddress.text = university.address
+            }
+
+            itemView.setOnClickListener {
+                onItemClicked?.invoke(university)
             }
         }
     }

@@ -4,9 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Gits-Indonesia/Kelas/Tugas/Tugas12/app/src/main/res/drawable/bg_appbar.xml" value="0.225" />
+        <entry key="..\:/Gits-Indonesia/Kelas/Tugas/Tugas12/app/src/main/res/drawable/bg_back_button.xml" value="0.225" />
         <entry key="..\:/Gits-Indonesia/Kelas/Tugas/Tugas12/app/src/main/res/drawable/bg_edt_search.xml" value="0.225" />
-        <entry key="..\:/Gits-Indonesia/Kelas/Tugas/Tugas12/app/src/main/res/layout/activity_home.xml" value="0.21" />
+        <entry key="..\:/Gits-Indonesia/Kelas/Tugas/Tugas12/app/src/main/res/drawable/ic_arrow_back.xml" value="0.225" />
+        <entry key="..\:/Gits-Indonesia/Kelas/Tugas/Tugas12/app/src/main/res/drawable/ic_back_button.xml" value="0.225" />
+        <entry key="..\:/Gits-Indonesia/Kelas/Tugas/Tugas12/app/src/main/res/layout/activity_detail.xml" value="0.41770833333333335" />
+        <entry key="..\:/Gits-Indonesia/Kelas/Tugas/Tugas12/app/src/main/res/layout/activity_home.xml" value="0.18" />
         <entry key="..\:/Gits-Indonesia/Kelas/Tugas/Tugas12/app/src/main/res/layout/activity_main.xml" value="0.20885416666666667" />
+        <entry key="..\:/Gits-Indonesia/Kelas/Tugas/Tugas12/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
         <entry key="..\:/Gits-Indonesia/Kelas/Tugas/Tugas12/app/src/main/res/layout/item_university.xml" value="0.25" />
       </map>
     </option>
