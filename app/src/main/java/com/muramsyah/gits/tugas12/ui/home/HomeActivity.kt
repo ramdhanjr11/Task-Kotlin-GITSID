@@ -32,14 +32,7 @@ class HomeActivity : AppCompatActivity() {
                 val searcher = s.toString().lowercase()
 
                 if (searcher.isNotEmpty()) {
-                    val newData = ArrayList<University>()
-
-                    DataHelper.listData.forEach {
-                        if (it.name?.contains(searcher, ignoreCase = true) == true) {
-                            newData.add(it)
-                        }
-                    }
-
+                    val newData = DataHelper.listData.filter { it.name!!.contains(searcher, ignoreCase = true) }.map { it }
                     initShowDataUniversity(newData)
                 } else {
                     initShowDataUniversity(DataHelper.listData)
