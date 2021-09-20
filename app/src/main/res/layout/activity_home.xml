@@ -9,13 +9,14 @@
     tools:context=".ui.home.HomeActivity">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
             android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
             app:expandedTitleTextAppearance="@style/expandedBar"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
